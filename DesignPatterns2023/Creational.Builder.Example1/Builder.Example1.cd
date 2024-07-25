@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Creational.Builder.Example1.AndroidPhoneBuilder" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAEAAAAQAAAgAAAAIAAIAAA=</HashCode>
+      <FileName>ConcreteBuilder\AndroidPhoneBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Creational.Builder.Example1.SamsungPhoneBuilder" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAEAAAAQAAAgAAAAIAAIAAA=</HashCode>
+      <FileName>ConcreteBuilder\SamsungPhoneBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Creational.Builder.Example1.WindowsPhoneBuilder" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAEAAAAQAAAgAAAAIAAIAAA=</HashCode>
+      <FileName>ConcreteBuilder\WindowsPhoneBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Creational.Builder.Example1.Manufacturer">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Director\Manufacturer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Creational.Builder.Example1.MobilePhone">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAIAAIAABAAAAAUAAAAAAAAAAAAAAEIAAABCAAACAA=</HashCode>
+      <FileName>Product\MobilePhone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Creational.Builder.Example1.IPhoneBuilder">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAEAAAAQAAAAAAAAIAAIAAA=</HashCode>
+      <FileName>Builder\IPhoneBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Creational.Builder.Example1.ScreenType">
+    <Position X="0.5" Y="6" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Product\EnumHelper.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Creational.Builder.Example1.Battery">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Product\EnumHelper.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Creational.Builder.Example1.OperatingSystem">
+    <Position X="8" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAgAgAAA=</HashCode>
+      <FileName>Product\EnumHelper.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Creational.Builder.Example1.Stylus">
+    <Position X="6" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Product\EnumHelper.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
